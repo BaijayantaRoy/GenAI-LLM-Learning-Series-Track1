@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 # Step 1: Download Work of Rabindranath Tagore and Preprocess Text
 # Libraries for downloading and preprocessing
 import os
@@ -485,10 +479,3 @@ if __name__ == "__main__":
     print(f"\nCombined Embeddings for Dataset (First 5 Tokens):")
     for token, emb in zip(tokens[:5], combined_embeddings[:5]):
         print(f"Token: {token}, Combined Embedding: {emb[:5]} ...")
-
-
-# In[ ]:
-
-
-
-
